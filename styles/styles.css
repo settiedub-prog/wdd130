@@ -6,7 +6,7 @@ nav {
 nav a {
     color: auto;
     padding: 2px;
-    display: auto;
+    display: block;
 }
 
 main {
