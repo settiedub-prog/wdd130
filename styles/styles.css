@@ -1,6 +1,13 @@
-nav {}
+nav {
+    background-color: auto;
+    padding: auto;
+}
 
-nav a {}
+nav a {
+    color: auto;
+    padding: 2px;
+    display: auto;
+}
 
 main {
     max-width: 840px;
