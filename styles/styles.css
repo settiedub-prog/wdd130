@@ -1,3 +1,9 @@
+:root {
+    --border-color: black;
+    --text-align: center;
+
+}
+
 nav {
     background-color: auto;
     padding: auto;
@@ -16,7 +22,7 @@ main {
 main img {
     width: 150px;
     height: auto;
-    border: black;
+    border-color: var(--border-color);
     padding: auto;
     box-shadow: none;
 }
@@ -28,8 +34,7 @@ aside {
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
-
+    text-align: var(--text-align);
 }
 
 aside img {
@@ -48,5 +53,5 @@ h1 {
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: var(--text-align)
 }
